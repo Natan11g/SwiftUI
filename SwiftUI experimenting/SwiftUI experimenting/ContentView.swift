@@ -1,16 +1,23 @@
-//
-//  ContentView.swift
-//  SwiftUI experimenting
-//
-//  Created by Natan Gluszko on 01/06/2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .leading, spacing: 20.0) {
+            HStack {
+                Text("Hello, world!")
+                Spacer()
+            }
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+            Text("Hello, world!")
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
