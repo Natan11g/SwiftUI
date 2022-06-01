@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		913B7BA528480FE40084F9A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B7BA428480FE40084F9A4 /* AppDelegate.swift */; };
-		913B7BA728480FE40084F9A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B7BA628480FE40084F9A4 /* SceneDelegate.swift */; };
-		913B7BA928480FE40084F9A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913B7BA828480FE40084F9A4 /* ViewController.swift */; };
-		913B7BAE28480FE50084F9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913B7BAD28480FE50084F9A4 /* Assets.xcassets */; };
-		913B7BB128480FE50084F9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913B7BAF28480FE50084F9A4 /* LaunchScreen.storyboard */; };
+		9170E3F828481DA20063836A /* SwiftUI_experimentingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170E3F728481DA20063836A /* SwiftUI_experimentingApp.swift */; };
+		9170E3FA28481DA20063836A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9170E3F928481DA20063836A /* ContentView.swift */; };
+		9170E3FC28481DA30063836A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9170E3FB28481DA30063836A /* Assets.xcassets */; };
+		9170E3FF28481DA30063836A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9170E3FE28481DA30063836A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		913B7BA128480FE40084F9A4 /* SwiftUI Experimenting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Experimenting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		913B7BA428480FE40084F9A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		913B7BA628480FE40084F9A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		913B7BA828480FE40084F9A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		913B7BAD28480FE50084F9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		913B7BB028480FE50084F9A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		913B7BB228480FE50084F9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9170E3F428481DA20063836A /* SwiftUI experimenting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI experimenting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9170E3F728481DA20063836A /* SwiftUI_experimentingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_experimentingApp.swift; sourceTree = "<group>"; };
+		9170E3F928481DA20063836A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9170E3FB28481DA30063836A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9170E3FE28481DA30063836A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		913B7B9E28480FE40084F9A4 /* Frameworks */ = {
+		9170E3F128481DA20063836A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		913B7B9828480FE40084F9A4 = {
+		9170E3EB28481DA20063836A = {
 			isa = PBXGroup;
 			children = (
-				913B7BA328480FE40084F9A4 /* SwiftUI Experimenting */,
-				913B7BA228480FE40084F9A4 /* Products */,
+				9170E3F628481DA20063836A /* SwiftUI experimenting */,
+				9170E3F528481DA20063836A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		913B7BA228480FE40084F9A4 /* Products */ = {
+		9170E3F528481DA20063836A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				913B7BA128480FE40084F9A4 /* SwiftUI Experimenting.app */,
+				9170E3F428481DA20063836A /* SwiftUI experimenting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		913B7BA328480FE40084F9A4 /* SwiftUI Experimenting */ = {
+		9170E3F628481DA20063836A /* SwiftUI experimenting */ = {
 			isa = PBXGroup;
 			children = (
-				913B7BA428480FE40084F9A4 /* AppDelegate.swift */,
-				913B7BA628480FE40084F9A4 /* SceneDelegate.swift */,
-				913B7BA828480FE40084F9A4 /* ViewController.swift */,
-				913B7BAD28480FE50084F9A4 /* Assets.xcassets */,
-				913B7BAF28480FE50084F9A4 /* LaunchScreen.storyboard */,
-				913B7BB228480FE50084F9A4 /* Info.plist */,
+				9170E3F728481DA20063836A /* SwiftUI_experimentingApp.swift */,
+				9170E3F928481DA20063836A /* ContentView.swift */,
+				9170E3FB28481DA30063836A /* Assets.xcassets */,
+				9170E3FD28481DA30063836A /* Preview Content */,
 			);
-			path = "SwiftUI Experimenting";
+			path = "SwiftUI experimenting";
+			sourceTree = "<group>";
+		};
+		9170E3FD28481DA30063836A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9170E3FE28481DA30063836A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		913B7BA028480FE40084F9A4 /* SwiftUI Experimenting */ = {
+		9170E3F328481DA20063836A /* SwiftUI experimenting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 913B7BB528480FE50084F9A4 /* Build configuration list for PBXNativeTarget "SwiftUI Experimenting" */;
+			buildConfigurationList = 9170E40228481DA30063836A /* Build configuration list for PBXNativeTarget "SwiftUI experimenting" */;
 			buildPhases = (
-				913B7B9D28480FE40084F9A4 /* Sources */,
-				913B7B9E28480FE40084F9A4 /* Frameworks */,
-				913B7B9F28480FE40084F9A4 /* Resources */,
+				9170E3F028481DA20063836A /* Sources */,
+				9170E3F128481DA20063836A /* Frameworks */,
+				9170E3F228481DA20063836A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SwiftUI Experimenting";
-			productName = "SwiftUI Experimenting";
-			productReference = 913B7BA128480FE40084F9A4 /* SwiftUI Experimenting.app */;
+			name = "SwiftUI experimenting";
+			productName = "SwiftUI experimenting";
+			productReference = 9170E3F428481DA20063836A /* SwiftUI experimenting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		913B7B9928480FE40084F9A4 /* Project object */ = {
+		9170E3EC28481DA20063836A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					913B7BA028480FE40084F9A4 = {
+					9170E3F328481DA20063836A = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 913B7B9C28480FE40084F9A4 /* Build configuration list for PBXProject "SwiftUI Experimenting" */;
+			buildConfigurationList = 9170E3EF28481DA20063836A /* Build configuration list for PBXProject "SwiftUI experimenting" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 913B7B9828480FE40084F9A4;
-			productRefGroup = 913B7BA228480FE40084F9A4 /* Products */;
+			mainGroup = 9170E3EB28481DA20063836A;
+			productRefGroup = 9170E3F528481DA20063836A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				913B7BA028480FE40084F9A4 /* SwiftUI Experimenting */,
+				9170E3F328481DA20063836A /* SwiftUI experimenting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		913B7B9F28480FE40084F9A4 /* Resources */ = {
+		9170E3F228481DA20063836A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913B7BB128480FE50084F9A4 /* LaunchScreen.storyboard in Resources */,
-				913B7BAE28480FE50084F9A4 /* Assets.xcassets in Resources */,
+				9170E3FF28481DA30063836A /* Preview Assets.xcassets in Resources */,
+				9170E3FC28481DA30063836A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		913B7B9D28480FE40084F9A4 /* Sources */ = {
+		9170E3F028481DA20063836A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				913B7BA928480FE40084F9A4 /* ViewController.swift in Sources */,
-				913B7BA528480FE40084F9A4 /* AppDelegate.swift in Sources */,
-				913B7BA728480FE40084F9A4 /* SceneDelegate.swift in Sources */,
+				9170E3FA28481DA20063836A /* ContentView.swift in Sources */,
+				9170E3F828481DA20063836A /* SwiftUI_experimentingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		913B7BAF28480FE50084F9A4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				913B7BB028480FE50084F9A4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		913B7BB328480FE50084F9A4 /* Debug */ = {
+		9170E40028481DA30063836A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		913B7BB428480FE50084F9A4 /* Release */ = {
+		9170E40128481DA30063836A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,18 +261,20 @@
 			};
 			name = Release;
 		};
-		913B7BB628480FE50084F9A4 /* Debug */ = {
+		9170E40328481DA30063836A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI experimenting/Preview Content\"";
 				DEVELOPMENT_TEAM = TY2SN3XR6M;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI Experimenting/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -289,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.SwiftUI-Experimenting";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.SwiftUI-experimenting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,18 +290,20 @@
 			};
 			name = Debug;
 		};
-		913B7BB728480FE50084F9A4 /* Release */ = {
+		9170E40428481DA30063836A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI experimenting/Preview Content\"";
 				DEVELOPMENT_TEAM = TY2SN3XR6M;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "SwiftUI Experimenting/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.SwiftUI-Experimenting";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.SwiftUI-experimenting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		913B7B9C28480FE40084F9A4 /* Build configuration list for PBXProject "SwiftUI Experimenting" */ = {
+		9170E3EF28481DA20063836A /* Build configuration list for PBXProject "SwiftUI experimenting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				913B7BB328480FE50084F9A4 /* Debug */,
-				913B7BB428480FE50084F9A4 /* Release */,
+				9170E40028481DA30063836A /* Debug */,
+				9170E40128481DA30063836A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		913B7BB528480FE50084F9A4 /* Build configuration list for PBXNativeTarget "SwiftUI Experimenting" */ = {
+		9170E40228481DA30063836A /* Build configuration list for PBXNativeTarget "SwiftUI experimenting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				913B7BB628480FE50084F9A4 /* Debug */,
-				913B7BB728480FE50084F9A4 /* Release */,
+				9170E40328481DA30063836A /* Debug */,
+				9170E40428481DA30063836A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 913B7B9928480FE40084F9A4 /* Project object */;
+	rootObject = 9170E3EC28481DA20063836A /* Project object */;
 }
